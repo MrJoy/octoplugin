@@ -8,11 +8,17 @@ PATH
   remote: ../octodemo
   specs:
     octodemo (0.0.1)
+      activesupport (~> 3.2.13)
       rake (~> 10.0.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    i18n (0.6.1)
+    multi_json (1.7.4)
     rake (10.0.4)
 
 PLATFORMS

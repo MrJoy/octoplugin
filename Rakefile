@@ -64,7 +64,9 @@ task :default => :test
 
 desc "Open an irb session preloaded with this library"
 task :console do
-  sh "irb -rubygems -r ./lib/#{name}.rb"
+  require 'irb'
+  ARGV.clear
+  IRB.start
 end
 
 #############################################################################
